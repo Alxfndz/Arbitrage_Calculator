@@ -23,7 +23,7 @@ def add_background_image():
 
 def main():
     st.title('💰Arbitrage Calculator')
-    st.write('This is a simple app to calculate arbitrage betting')
+    st.write('Use this arbitrage calculator to work out how to guarantee profit in a two-way market.')
     st.write("Enter the odds of your original bet and the odds for the alternative outcome. The calculator will tell you if you've found an abitrage opportunity and how much to bet on each outcome.")
     
     original_bet_odds = st.number_input('Enter the odds of the original bet: ', min_value=1.00, max_value=1000.00, value=1.00,)

@@ -61,9 +61,3 @@ The **Arbitrage Calculator** is a Python application built using the Streamlit f
 
 6. If no arbitrage opportunity is found (total probability greater than or equal to 1), the application will display a message indicating the absence of any arbitrage opportunities.
 
-## Background Image
-
-The application features a background image that enhances the user interface and aesthetics. It provides a visually appealing environment for interacting with the **Arbitrage Calculator**.
-
-![Background Image](https://images.unsplash.com/photo-1552749412-02bd58bcff5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)
-

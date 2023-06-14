@@ -1,7 +1,5 @@
 # Arbitrage Calculator
 
-![Arbitrage Calculator](https://images.unsplash.com/photo-1552749412-02bd58bcff5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)
-
 ## Description
 
 The **Arbitrage Calculator** is a Python application built using the Streamlit framework. It allows users to calculate and identify arbitrage opportunities in a two-way market, ensuring a guaranteed profit. By entering the odds of the original bet and the hedge bet, along with the desired total amount for the wager, the calculator determines if an arbitrage opportunity exists and provides the recommended bet amounts for each outcome.

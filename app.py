@@ -28,7 +28,7 @@ def main():
     
     original_bet_odds = st.number_input('Enter the odds of the original bet: ', min_value=1.00, max_value=1000.00, value=1.00,)
     hedge_bet_odds = st.number_input('Enter the odds of the hedge bet: ', min_value=1.00, max_value=1000.00, value=1.00,)
-    desired_win_amount = st.number_input('Enter your desired win amount: ',min_value=1,max_value=1000000,value=1000)
+    desired_win_amount = st.number_input('Enter your desired total amount for the wager: ',min_value=1,max_value=1000000,value=1000)
     original_bet_probability,hedge_bet_probability,total_probability = arbitrage_calculator(original_bet_odds, hedge_bet_odds, desired_win_amount)
     calculate_button = st.button('Test For Arbitrage')
     
